@@ -1,0 +1,22 @@
+{
+  "name": "playrightcucumberjs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "cucumber.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@playwright/test": "^1.54.2",
+    "allure-cucumberjs": "^3.3.2",
+    "cucumber-html-reporter": "^7.2.0",
+    "playwright": "^1.54.2"
+  }
+}
