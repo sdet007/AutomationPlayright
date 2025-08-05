@@ -17,7 +17,7 @@ When('the user enters username {string} and password {string}', async (username,
   await loginPage.login(username, password);
 });
 
-// Then('the user should see the dashboard', async () => {
-//   await expect(page).toHaveURL(/.*dashboard/);
-//   await browser.close();
-// });
+Then('the user should see the dashboard', async () => {
+  await expect(page).toHaveTitle(/Administrator/);
+  await browser.close();
+});
