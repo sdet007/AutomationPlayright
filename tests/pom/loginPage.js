@@ -6,7 +6,7 @@ class LoginPage {
     this.loginButton = '[type="submit"]'; // for submit button
   }
 
-  async goto() {
+  async navigateToLogin() {
     await this.page.goto('http://localhost:8888');
   }
 
